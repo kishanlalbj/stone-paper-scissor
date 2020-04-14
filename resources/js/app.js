@@ -15,7 +15,7 @@ convertLetterToWord = (letter) =>
   letter === "r"
     ? "Rock"
     : letter === "p"
-    ? "paper"
+    ? "Paper"
     : letter === "s"
     ? "Scissor"
     : null;
@@ -75,6 +75,7 @@ main = () => {
     play("s");
   });
 };
+
 getCompChoice = () => choices[Math.floor(Math.random() * 3)];
 
 main();
